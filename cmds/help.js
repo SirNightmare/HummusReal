@@ -106,7 +106,7 @@ module.exports.run = async (bot, message, args) => {
             value: "Rolls a 6 sided dice!"
           },
           {
-            name: "?nsfw",
+            name: "?npm (Package name)",
             value: "All NSFW commands"
           }
         ],
@@ -161,6 +161,10 @@ module.exports.run = async (bot, message, args) => {
             name: "?wtp",
             value: "Whos that pokemon game (You need to be in a voice channel!)"
           },
+               {
+                   name: "?shorten (URL) (Name)",
+                   value: "Shortens the given url"
+               }
       ],
       timestamp: new Date(),
       footer: {
